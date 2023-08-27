@@ -13,6 +13,15 @@ The core objective of VehicleVision is to craft an image classification model th
 
 5. Monitoring and Maintenance: Implement mechanisms to actively monitor model performance and identify potential anomalies.
 
+## AWS Services Used
+1. AWS Sagemaker: Leveraged for model training, deployment and model monitoring, enabling scalable and efficient machine learning operations.
+
+2. AWS Lambda: Utilized to create serverless functions for serializing images, classify images, and result filtering.
+
+3. AWS Step Functions: Employed to seamlessly orchestrate the execution of Lambda functions, creating a coherent and automated workflow.
+
+4. AWS S3: Utilized as a storage solution for data staging, model artifacts, and intermediate outputs during various project phases.
+
 ## Project Phases
 ### Phase 1: Data Preparation
 Prepare the dataset for model training:
