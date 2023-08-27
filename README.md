@@ -31,6 +31,9 @@ Develop AWS Lambda functions and orchestrate their execution:
 
 1. Create three distinct AWS Lambda functions: serialize image (`serializeImage.py`) , classify image (`classifyImage.py`), and result filtering (`filterInferences.py`).
 2. Design a workflow using AWS Step Functions to coordinate these functions (`stepFunction.json`). 
+
+- Step Function Workflow:
+ <img src="Assets/StepFunction.png">
 ### Phase 4: Testing and Evaluation
 Thoroughly assess the workflow's effectiveness:
 
